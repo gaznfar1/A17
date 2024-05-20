@@ -18,7 +18,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 // Auth information
 global.pairNumber = "923130510486";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
-global.auth = process.env.AUTH || "QR";                // Auth mode OR/Pairing.
+global.auth = process.env.AUTH || "pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
 global.mongodb = process.env.MONGODB || "";                 // Mongodb url.
 global.website = "https://www.exenoz.tech"; 
